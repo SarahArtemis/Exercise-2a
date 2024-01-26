@@ -1,0 +1,25 @@
+---
+title: "Rmarkdown"
+author: "Sarah"
+date: "2024-01-26"
+output: html_document
+---
+Let's create a random scatter plot with made up data!
+
+```{r echo=FALSE}
+x<-c(1,2,3,4,5,6,7,8)
+print(x)
+```
+
+Above are the x variables. Below are the y variables
+
+```{R echo=FALSE}
+y<-x*0.5+2
+print(y)
+```
+Now make the plot
+
+```{r}
+plot(x,y)
+```
+
